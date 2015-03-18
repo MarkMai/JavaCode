@@ -11,7 +11,6 @@ public class FirstFile {
 		if(!file.exists())
 			file.createNewFile();
 		
-		
 		FileOutputStream fos = new FileOutputStream(file);
 		
 		URL url = new URL("http://www.scholat.com/images/mailLogo.png");
